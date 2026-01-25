@@ -1,0 +1,91 @@
+############################################
+# General / OS
+############################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################################
+# Node / React Native
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Metro / React Native temp
+.metro-health-check*
+.expo/
+.expo-shared/
+web-build/
+
+# dotenv files (if you use them)
+.env
+.env.*.local
+
+############################################
+# Android (Gradle / Android Studio)
+############################################
+android/.gradle/
+android/local.properties
+android/build/
+android/app/build/
+android/app/release/
+*.keystore
+*.jks
+
+############################################
+# iOS / Xcode
+############################################
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.xcworkspace
+!ios/*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/*.mode1v3
+*.xcodeproj/*.mode2v3
+*.xcodeproj/*.perspectivev3
+*.xcodeproj/*.pbxuser
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+############################################
+# JetBrains Rider / IntelliJ / WebStorm
+############################################
+.idea/
+*.sln.iml
+*.iws
+*.iml
+*.ipr
+
+# Rider specific
+.rider/
+**/.idea/**
+
+############################################
+# Build outputs / misc
+############################################
+dist/
+build/
+coverage/
+*.log
+
+############################################
+# Your project-specific ignore
+############################################
+downloads/
