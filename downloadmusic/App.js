@@ -1,16 +1,31 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <View style={styles.header}>
+    //   <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Music Downloader</Text>
+    // </View>,
+    // <View style={styles.container}>
+    //   <Text>Open up App.js to start working your app!</Text>
+    //   <Button title="Download Music" onPress={() => alert('Downloading...')} />
+    //   <StatusBar style="auto" />
+    // </View>
+
   );
 }
 
 const styles = StyleSheet.create({
+  header: {
+    color: '#333',
+    height: 80,
+    paddingTop: 38,
+    backgroundColor: '#f8f8f8',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#eee',
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
